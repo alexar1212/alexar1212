@@ -1,0 +1,56 @@
+
+body{
+background-image:url(img/Desktop\ -\ 1.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+padding: 50px;
+}
+
+.card-logo{
+    width: 100%;
+    padding: 50px;
+    display: inline-block;
+}
+
+.text{
+    font-size: 25px;
+    color: aliceblue;
+    margin-bottom: 60px;
+}
+
+.button{
+    border-radius: 50px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color:#fff;
+    padding:20px;
+}
+
+.card{
+    background-image: url(img/Rectangle\ 135.png);
+    background-size: cover;
+    width: 200px;
+    border-radius: 30px;
+    padding: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+
+}
+
+.card img {
+    width: 90%;
+}
+
+
+
+@media (max-width:700px) {
+   body{
+    background: linear-gradient(#D63232,#9327C6);
+
+   }
+    
+}
