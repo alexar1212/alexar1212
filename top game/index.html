@@ -1,0 +1,273 @@
+<!--
+   Цель урока: Создание топ лучших игр с использованием контейнеров и применением к ним новых CSS-свойств.
++ вспомнить команды из прошлых уроков;
++ добавить изображения, ссылки и параграфы для топа лучших игр;
++ познакомиться с тегом-контейнером <div>. Применить его к топу лучших игр; 
++ познакомиться с консолью-разработчика;
++ познакомиться с тегами <i> и <b>. Применить их к топу лучших игр;
++ познакомиться с новыми CSS-свойствами. Применить их к топу лучших игр;
++ получить домашнее задание. - Вспомнить команды из прошлого урока;
++ Доработка сайта;
++ Познакомиться с атрибутом id. Применить его к сайту;
++ Познакомиться с отступами (margin и padding);
++ Познакомиться с новыми CSS-свойствами и добавить их на сайт;
++ Получить домашнее задание.
+
+Цель: создать при помощи таблиц баннер тарифного плана для прошлого проекта.
++ Вспомнить команды из прошлого урока;
++ Познакомиться с тегом <table>;
++ Познакомиться с тегом <caption>;
+- Познакомиться с тегами , <thead>, <tbody>, <th>, <tr> и <td>.
+- Познакомиться и применить CSS-свойство border-collapse;
+- Получить домашнее задание.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top best-games</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="menu"> 
+      <a href="#best-games" class="menu-item">Лучшие Игры</a>
+      <a href="#mmo" class="menu-item">ММО</a>
+      <a href="#action" class="menu-item">Action</a>
+      <a href="#shooters" class="menu-item">Шутеры</a>
+      <a href="#ende" class="menu-item">Инди</a>
+      <a href="#moba" class="menu-item">Моба</a>
+
+   </div>
+    <h1 id="best-games">ЛУЧШИЕ ИГРЫ</h1>  
+    
+    <div class="cart">
+       <img src="img/1.jpg" alt=""> 
+       <h3>roblox&reg;</h3>
+       <p> <i>roblox compaoraion</i></p>
+       <p> <b>50</b>  руб.</p> 
+       <a class="button" href="https://www.roblox.com/">Купить</a>
+    </div>
+    
+    <div class="cart">
+        <img src="img/2.jpg" alt=""> 
+        <h3>dota 2&reg;</h3>
+        <p> <i>Valve</i></p>
+        <p>100 руб.</p>
+        <a class="button" href="https://www.dota2.com/home">Купить</a>
+    </div>
+    
+
+    
+     <div class="cart"> 
+    <img src="img/3.png" alt=""> 
+    <h3>Mincraft&reg;</h3>
+    <p> <i>Mojang Studios</i></p>
+    <p>900 руб.</p>
+    <a class="button" href="https://www.minecraft.net/ru-ru">Купить</a>
+
+    </div>
+    
+    <div class="cart">
+        <img src="img/4.png" alt=""> 
+        <h3>Among us&reg;</h3>
+        <p> <i>InnerSloth LLC</i></p>
+        <p>20 руб.</p>
+        <a class="button" href="https://store.steampowered.com/app/945360/Among_Us/">Купить</a>
+    </div>
+    
+    <div class="cart">
+        <img src="img/5.png" alt=""> 
+        <h3>Brawl Stars&reg;</h3>
+        <p> <i></i>Supercell</p>
+        <p>5 руб.</p>
+        <a class="button" href="https://blog.brawlstars.com/">Купить</a>
+    </div>
+
+    <h3 id="mmo">MMO</h3>
+    <div class="cart">
+        <img src="img/6.png" alt=""> 
+        <h3>roblox&reg;</h3>
+        <p> <i>roblox compaoraion</i></p>
+        <p> <b>50</b>  руб.</p> 
+        <a class="button" href="https://www.roblox.com/">Купить</a>
+     </div>
+     
+     <div class="cart">
+         <img src="img/7.jpeg" alt=""> 
+         <h3>dota 2&reg;</h3>
+         <p> <i>Valve</i></p>
+         <p>100 руб.</p>
+         <a class="button" href="https://www.dota2.com/home">Купить</a>
+     </div>
+     
+     <h3 id="action">Action</h3>
+     
+      <div class="cart"> 
+     <img src="img/8.png" alt=""> 
+     <h3>Mincraft&reg;</h3>
+     <p> <i>Mojang Studios</i></p>
+     <p>900 руб.</p>
+     <a class="button" href="https://www.minecraft.net/ru-ru">Купить</a>
+ 
+     </div>
+     
+     <h3 id="shooters">Шутеры</h3>
+
+     <div class="cart">
+         <img src="img/9.png" alt=""> 
+         <h3>Among us&reg;</h3>
+         <p> <i>InnerSloth LLC</i></p>
+         <p>20 руб.</p>
+         <a class="button" href="https://store.steampowered.com/app/945360/Among_Us/">Купить</a>
+     </div>
+     
+     <h3 id="ende">Инди</h3>
+
+     <div class="cart">
+         <img src="img/10.jpeg" alt=""> 
+         <h3>Brawl Stars&reg;</h3>
+         <p> <i></i>Supercell</p>
+         <p>5 руб.</p>
+         <a class="button" href="https://blog.brawlstars.com/">Купить</a>
+     </div>
+    
+     <h3 id="moba">Моба</h3>
+
+     <div class="cart">
+        <img src="img/6.png" alt=""> 
+        <h3>stendoff&reg;</h3>
+        <p> <i>Axellbolt</i></p>
+        <p>free руб.</p>
+        <a class="button" href="">Купить</a>
+    </div>
+
+    
+    <p>На нашем сайте вы можете приобрести доступ к играм как поодельнасти, так и по ежемесечной подписке!</p>
+    <table>
+        <caption>Наши тарифы</caption>
+        <thead>
+            <tr>
+                <th class="basic">BASIC</th> 
+                <th class="pro">PRO</th>
+                <th class="gold">GOLD</th>
+                <th class="platinum">PLATINUM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Доступ к 3 разным играм
+                </td>
+                
+                <td>
+                    Доступ к 5 разным играм
+                </td>
+
+                <td>
+                    Доступ к 7 разным играм
+                </td>
+
+                <td>
+                    Доступ к любым  играм
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Кругласуточная поддержка
+                </td>
+
+                <td>
+                    Кругласуточная поддержка
+                </td>
+
+                <td>
+                    Кругласуточная поддержка
+                </td>
+
+                <td>
+                    Кругласуточная поддержка
+                </td>
+            </tr>
+           <tr>
+               <td>
+                   Библеотека постоянно
+               </td>
+
+                <td>
+                 Библеотека постоянно
+                </td>
+
+                <td>
+                  Библеотека постоянно
+                </td>
+
+                <td>
+                 Библеотека постоянно
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   
+               </td>
+
+               <td>
+                Эксклюзивные внутре игровые награды
+               </td>
+
+               <td>
+                Эксклюзивные внутре игровые награды
+               </td>
+
+               <td>
+                Эксклюзивные внутре игровые награды
+               </td>
+
+           </tr>
+           <tr>
+               <td></td>
+               <td></td> 
+               <td></td>
+               <td>
+                   Доступ к играм за два дня до выхода
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <p class="table-text">Купить за 199 руб. в месяц</p>
+               </td>
+
+               <td>
+                   <p class="table-text">Купить за 399 руб. в месяц</p>
+               </td>
+
+               <td>
+                   <p class="table-text"> Купить за 599 руб. в месяц</p>
+               </td>
+
+               <td> 
+                   <p class="table-text">  Купить за 999 руб. в месяц</p>        
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <a href="" class="prize-batton basic"> Выбрать тариф </a>        
+               </td>
+               <td>
+                <a href="" class="prize-batton pro"> Выбрать тариф </a>
+               </td>
+
+               <td>
+                <a href="" class="prize-batton gold"> Выбрать тариф </a>
+               </td>
+
+               <td>
+                <a href="" class="prize-batton platinum"> Выбрать тариф </a> 
+               </td>
+           </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
