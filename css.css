@@ -1,0 +1,83 @@
+@font-face {
+    src: url(_menu/Ga_Maamli,Gloria_Hallelujah/Ga_Maamli/GaMaamli-Regular.ttf);
+    font-family: Ga_Maamli;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(115, 0, 255);
+}
+
+.title {
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+    border-radius: 1120px;
+    font-family: Ga_Maamli;
+    /* background: repeating-linear-gradient(55deg,black 20px,purple 10px, black 20px); */
+}
+
+
+.game-btn {
+    text-decoration: none;
+    background-color: rgb(0, 255, 60);
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.game-btn:hover {
+    transform: scale(150%) rotate(5deg);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.284);
+}
+
+
+
+.btn1 {
+    background-color: blue;
+    color: azure;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+
+}
+
+.btn1:hover {
+    box-shadow: 8px 20px 8px rgb(0, 34, 255);
+    transform: scale(150%) rotate(-5deg);
+}
+
+.btn2 {
+    background-color: chartreuse;
+    color: maroon;
+    position: relative;
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+}
+
+
+.btn2:hover {
+    transform: scale(150%) rotate(5deg);
+    box-shadow: 8px 20px 8px rgb(0, 255, 13);
+}
+
+.btn3 {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 255, 255);
+    position: relative;
+    width: 200px;
+    height: 20px;
+}
+
+
+.btn3:hover{
+    transform: scale(150%) rotate(-5deg);
+    box-shadow: 8px 20px 8px rgb(255, 0, 0);
+}
